@@ -6,7 +6,7 @@ for(var i = 0;i < 10;i++){
 }
 console.log(sum)
 
-//while loop
+// //while loop
 i=0
 sum=0
 while(i<10)
@@ -17,7 +17,7 @@ while(i<10)
 console.log(sum)
 
 
-//do while loop
+// //do while loop
 sum = 0
 i = 0
 do{
@@ -26,49 +26,49 @@ do{
 }while(i<10)
 console.log(sum)
 
-//example 1
+// //example 1
 arr = [10,20,30] //valid input
 console.log(arr.length)
 for(var i = 0;i < arr.length;i++){
     console.log(arr[i])
 }
 
-//example 2
+// //example 2
 arr=[10,20,20.5]//valid input
 console.log(arr.length)
 for(var i = 0;i < arr.length;i++){
     console.log(arr[i])
 }
 
-//example 3
+// //example 3
 arr = [10,20,true,false] // valid input
 console.log(arr.length)
 for(var i = 0;i < arr.length;i++){
     console.log(arr[i])
 }
 
-//example 4
+// //example 4
 arr = [10,"string","kongu","20",true] // valid input
 console.log(arr.length)
 for(var i = 0;i < arr.length;i++){
     console.log(arr[i])
 }
-//javascript can old all the datatypes including functions in the array values
- //for in loop
+// //javascript can old all the datatypes including functions in the array values
+//  //for in loop
 
  arr = [10,"string","kongu",20,true]
  for(const index in arr){
     console.log("the value present in ",index,"is",arr[index])
  }
 
- //for of
+//  //for of
  arr = [10,"string","kongu",20,true]
  for(const value of arr){
     console .log(value)
  }
 
-//for each
-//example 1
+// //for each
+// //example 1
  arr = [10,"string","kongu",20,true]
  arr.forEach(value =>{
     console.log(value)
@@ -85,7 +85,13 @@ console.log(kongu)
 for (key in kongu){
     console.log(key,kongu[key])
 }
+kongu = Object.entries(kongu)
+console.log(kongu)
 // for each eg
-kongu.forEach((key,element) => {
-    console.log(key,element)
-});
+kongu.forEach(([key,element]) => {
+   console.log(key,":",element)
+ });
+//for of
+for (key of kongu){
+        console.log(key)
+};

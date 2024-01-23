@@ -35,7 +35,7 @@ for (key in mapEg){
 }// value not be printed output none
 //console.log(mapEg.has(name))//variable name so erorr
 console.log(mapEg.has("name"))
-console.log(mapEg.get("id"))*/
+console.log(mapEg.get("id"))
 mapEg.set("age","19")
 mapEg.set("phoneno","9360350134")
 console.log(mapEg)

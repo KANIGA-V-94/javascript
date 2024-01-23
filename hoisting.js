@@ -1,7 +1,7 @@
 //hoisting => first call then declare it
 
-// variable hoisting
-/*console.log(a)
+//variable hoisting
+console.log(a)
 var a = 10 // output : defined
 
 console.log(b)

@@ -1,5 +1,5 @@
 //global scope(var)
-/*sum = 0
+sum = 0
 for(var i = 0;i < 10;i++){
     sum += i
 }
@@ -20,18 +20,18 @@ do{
     sum += i
     i++
 }while(i<10);
-console.log(sum)*/
+console.log(sum)
 
 //local scope(let)
-/*for(let i=0;i<10;i++){
+for(let i=0;i<10;i++){
     console.log(i+9)
-}let will work only in this loop so after this it will not print
+}//let will work only in this loop so after this it will not print
 console.log(i)//reference error
 
 for(var i=0;i<10;i++){
     console.log(i+9)
 }
-console.log(i)*/
+console.log(i)
 
 //block scope(declare first)
 var a=10
