@@ -2,7 +2,7 @@
 
 //variable hoisting
 console.log(a)
-var a = 10 // output : defined
+var a = 10 // output : undefined
 
 console.log(b)
 let b = 10 // output : reference error*/
