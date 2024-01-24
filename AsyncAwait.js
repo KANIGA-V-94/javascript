@@ -1,7 +1,7 @@
 //async dummy example
 async function asAw() {
     var promise = new Promise(function (response) {
-        setTimeout(function () {
+        setTimeout( () =>{
             response("Example of Async/Await");
         }, 1000)
     }
@@ -22,7 +22,7 @@ post();
 //insta
 //comment
 //var com;
-async function comment() {
+ async function comment() {
     return new Promise(function (comment) {
         setTimeout(function () {
             comment("Just looking like a WOW!!")
@@ -30,7 +30,7 @@ async function comment() {
     })
 }
 //like
-async function likecode() {
+ async function likecode() {
     return new Promise(function (like) {
         setTimeout(function () {
             like("This is my first post's like")
@@ -38,7 +38,7 @@ async function likecode() {
     })
 }
 //share
-async function sharecode(){
+ async function sharecode(){
     return new Promise(function(share){
         setTimeout(function(){
             share("I'm loving this video so much so I shared it")
